@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Api", "Microservice.Smart.Api\Microservice.Smart.Api.csproj", "{08495A1D-7C9A-4DA5-9587-4F75A640AECD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.GoogleMapInfo", "Microservice.Smart.Services.GoogleMapInfo\Microservice.Smart.Services.GoogleMapInfo.csproj", "{2FFF614F-BB4A-4C55-80C5-74DB3144073E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D4AF03C7-B915-4F70-A524-51735701CCB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.Common", "Microservice.Smart.Services.Common\Microservice.Smart.Services.Common.csproj", "{4727C567-0290-48BB-B616-67FD098F64A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.GoogleMapInfo.Tests", "Tests\Microservice.Smart.Services.GoogleMapInfo.Tests\Microservice.Smart.Services.GoogleMapInfo.Tests.csproj", "{F298677F-C097-4363-8ED8-55A819696F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.Common.Tests", "Tests\Microservice.Smart.Services.Common.Tests\Microservice.Smart.Services.Common.Tests.csproj", "{54B4372D-9A86-461C-91B0-2E67A1E56C67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Api.Tests", "Tests\Microservice.Smart.Api.Tests\Microservice.Smart.Api.Tests.csproj", "{4050187C-072A-46A9-993B-889CC62ADD5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.ISSNChecker", "Microservice.Smart.Services.ISSNChecker\Microservice.Smart.Services.ISSNChecker.csproj", "{03C355BF-8F90-48E4-8D75-D4B520FEFB68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.ISSNChecker.Tests", "Tests\Microservice.Smart.Services.ISSNChecker.Tests\Microservice.Smart.Services.ISSNChecker.Tests.csproj", "{EBFC0F98-EC16-4A38-9D89-E1DCC0DD6AF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.GoogleDistance", "Microservice.Smart.Services.GoogleDistance\Microservice.Smart.Services.GoogleDistance.csproj", "{8EA3CF1A-ED80-4FB0-8844-B7EA971597ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.RequestReceiver", "Microservice.Smart.Services.RequestReceiver\Microservice.Smart.Services.RequestReceiver.csproj", "{D1E6092B-CBBC-4D84-9B88-C0CB47387BC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.GoogleDistance.Tests", "Tests\Microservice.Smart.Services.GoogleDistance.Tests\Microservice.Smart.Services.GoogleDistance.Tests.csproj", "{FEA33E65-1FAA-4A00-987D-14401C37DB53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Smart.Services.RequestReceiver.Tests", "Tests\Microservice.Smart.Services.RequestReceiver.Tests\Microservice.Smart.Services.RequestReceiver.Tests.csproj", "{6F9CBF80-9C26-48B2-876B-DF251578664A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08495A1D-7C9A-4DA5-9587-4F75A640AECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08495A1D-7C9A-4DA5-9587-4F75A640AECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08495A1D-7C9A-4DA5-9587-4F75A640AECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08495A1D-7C9A-4DA5-9587-4F75A640AECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFF614F-BB4A-4C55-80C5-74DB3144073E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFF614F-BB4A-4C55-80C5-74DB3144073E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFF614F-BB4A-4C55-80C5-74DB3144073E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFF614F-BB4A-4C55-80C5-74DB3144073E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4727C567-0290-48BB-B616-67FD098F64A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4727C567-0290-48BB-B616-67FD098F64A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4727C567-0290-48BB-B616-67FD098F64A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4727C567-0290-48BB-B616-67FD098F64A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F298677F-C097-4363-8ED8-55A819696F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F298677F-C097-4363-8ED8-55A819696F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F298677F-C097-4363-8ED8-55A819696F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F298677F-C097-4363-8ED8-55A819696F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B4372D-9A86-461C-91B0-2E67A1E56C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B4372D-9A86-461C-91B0-2E67A1E56C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B4372D-9A86-461C-91B0-2E67A1E56C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B4372D-9A86-461C-91B0-2E67A1E56C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4050187C-072A-46A9-993B-889CC62ADD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4050187C-072A-46A9-993B-889CC62ADD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4050187C-072A-46A9-993B-889CC62ADD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4050187C-072A-46A9-993B-889CC62ADD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C355BF-8F90-48E4-8D75-D4B520FEFB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C355BF-8F90-48E4-8D75-D4B520FEFB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C355BF-8F90-48E4-8D75-D4B520FEFB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C355BF-8F90-48E4-8D75-D4B520FEFB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFC0F98-EC16-4A38-9D89-E1DCC0DD6AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFC0F98-EC16-4A38-9D89-E1DCC0DD6AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFC0F98-EC16-4A38-9D89-E1DCC0DD6AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFC0F98-EC16-4A38-9D89-E1DCC0DD6AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA3CF1A-ED80-4FB0-8844-B7EA971597ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA3CF1A-ED80-4FB0-8844-B7EA971597ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA3CF1A-ED80-4FB0-8844-B7EA971597ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA3CF1A-ED80-4FB0-8844-B7EA971597ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E6092B-CBBC-4D84-9B88-C0CB47387BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E6092B-CBBC-4D84-9B88-C0CB47387BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E6092B-CBBC-4D84-9B88-C0CB47387BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E6092B-CBBC-4D84-9B88-C0CB47387BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA33E65-1FAA-4A00-987D-14401C37DB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA33E65-1FAA-4A00-987D-14401C37DB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA33E65-1FAA-4A00-987D-14401C37DB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA33E65-1FAA-4A00-987D-14401C37DB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9CBF80-9C26-48B2-876B-DF251578664A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9CBF80-9C26-48B2-876B-DF251578664A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9CBF80-9C26-48B2-876B-DF251578664A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9CBF80-9C26-48B2-876B-DF251578664A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F298677F-C097-4363-8ED8-55A819696F1A} = {D4AF03C7-B915-4F70-A524-51735701CCB8}
+		{54B4372D-9A86-461C-91B0-2E67A1E56C67} = {D4AF03C7-B915-4F70-A524-51735701CCB8}
+		{4050187C-072A-46A9-993B-889CC62ADD5C} = {D4AF03C7-B915-4F70-A524-51735701CCB8}
+		{EBFC0F98-EC16-4A38-9D89-E1DCC0DD6AF1} = {D4AF03C7-B915-4F70-A524-51735701CCB8}
+		{FEA33E65-1FAA-4A00-987D-14401C37DB53} = {D4AF03C7-B915-4F70-A524-51735701CCB8}
+		{6F9CBF80-9C26-48B2-876B-DF251578664A} = {D4AF03C7-B915-4F70-A524-51735701CCB8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8448A226-B1D9-4F7C-B8A1-33938AA55B37}
+	EndGlobalSection
+EndGlobal

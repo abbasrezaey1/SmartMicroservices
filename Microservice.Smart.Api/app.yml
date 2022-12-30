@@ -1,0 +1,23 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+	name: SmartMicroservice
+spec:
+	selector:
+		matchLabels:
+			app: SmartMicroservice
+replicas: 3
+template:
+	metadata:
+		labels:
+			app: SmartMicroservice
+spec:
+	containers:
+		- image: "pooryabd/microservicesmartapi"
+		- image: "pooryabd/microservicesmartservicesgoogledistance"
+		- image: "pooryabd/microservicesmartservicesissnchecker"
+		- image: "pooryabd/microservicesmartservicesrequestreceiver"
+imagePullPolicy: Always
+name: microservicesmartapi
+ports:
+	- containerPort: 80

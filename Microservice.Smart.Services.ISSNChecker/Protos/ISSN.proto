@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "Microservice.Smart.Services.ISSNChecker";
+
+package issnchecker;
+
+// The issnchecker service definition.
+service ISSNChecker {
+  // Sends a code
+  rpc Check (CodeInput) returns (CodeResult);
+}
+
+message CodeInput {
+  string code = 1;
+}
+
+message CodeResult {
+  string message = 1;
+}

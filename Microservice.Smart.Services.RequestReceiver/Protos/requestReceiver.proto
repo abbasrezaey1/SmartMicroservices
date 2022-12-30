@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "Microservice.Smart.Services.RequestReceiver";
+
+package requestReceiver;
+
+service RequestReceiver {
+  // Check ISSN code
+  rpc CheckISSNCode (ISSNCodeInput) returns (ISSNCodeResult);
+
+  // Get Distance
+  rpc GetDistance (Cities) returns (DistanceData);
+}
+
+message ISSNCodeInput {
+	string code = 1;
+}
+
+message ISSNCodeResult {
+	string message = 1;
+}
+
+message Cities {
+	string originCity = 1;
+	string destinationCity = 2;
+}
+
+message DistanceData {
+	string miles = 1;
+}

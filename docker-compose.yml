@@ -1,0 +1,54 @@
+version: '3.4'
+
+services:
+  microservice.smart.api:
+    image: ${DOCKER_REGISTRY-}microservicesmartapi
+    ports:
+      - "5072:5072"
+      - "7072:7072"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://localhost:7072;http://localhost:5072
+    build:
+      context: .
+      dockerfile: Microservice.Smart.Api\Dockerfile
+
+
+  microservice.smart.services.requestreceiver:
+    image: ${DOCKER_REGISTRY-}microservicesmartservicesrequestreceiver
+    ports:
+      - "5036:5036"
+      - "7036:7036"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://localhost:7036;http://localhost:5036
+    build:
+      context: .
+      dockerfile: Microservice.Smart.Services.RequestReceiver\Dockerfile
+
+
+  microservice.smart.services.googledistance:
+    image: ${DOCKER_REGISTRY-}microservicesmartservicesgoogledistance
+    ports:
+      - "5094:5094"
+      - "7094:7094"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://localhost:7094;http://localhost:5094
+    build:
+      context: .
+      dockerfile: Microservice.Smart.Services.GoogleDistance\Dockerfile
+
+
+  microservice.smart.services.issnchecker:
+    image: ${DOCKER_REGISTRY-}microservicesmartservicesissnchecker
+    ports:
+      - "5290:5290"
+      - "7290:7290"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://localhost:7290;http://localhost:5290
+    build:
+      context: .
+      dockerfile: Microservice.Smart.Services.ISSNChecker\Dockerfile
+
